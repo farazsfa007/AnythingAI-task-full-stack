@@ -55,7 +55,7 @@ frontend/
 cd backend
 
 
-🔐 Authentication Flow
+--- Authentication Flow
 
 User registers using email & password
 
@@ -67,7 +67,7 @@ Token is stored in localStorage
 
 Protected routes require Authorization: Bearer <token>
 
-🧩 API Endpoints (v1)
+--- API Endpoints (v1)
 Auth
 
 POST /api/v1/auth/register – Register user
@@ -84,7 +84,7 @@ PUT /api/v1/tasks/:id – Update task
 
 DELETE /api/v1/tasks/:id – Delete task
 
-🛡 Role-Based Access Control
+--- Role-Based Access Control
 
 Each user has a role (user or admin)
 
@@ -94,24 +94,10 @@ Middleware is ready to restrict routes based on roles
 
 Current implementation restricts users to manage only their own tasks
 
-🧪 Testing
+--- Testing
 
 APIs tested using Postman
 
 Frontend tested manually through browser
 
 Basic validation added to prevent invalid inputs
-
-📈 Scalability Notes
-
-If this application were to scale:
-
-Move to PostgreSQL/MySQL for production
-
-Add Redis for caching
-
-Dockerize services
-
-Add rate limiting & logging
-
-Split auth and task services into microservices
