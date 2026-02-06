@@ -4,6 +4,7 @@ This project is a simple full-stack application built as part of a backend devel
 The main focus is on building a secure REST API with authentication, role-based access, and CRUD operations, along with a basic frontend to interact with the APIs.
 
 ---
+- backend github:- https://github.com/farazsfa007/AnythingAI-task-backend
 
 ## 🛠 Tech Stack
 
